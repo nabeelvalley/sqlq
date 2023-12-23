@@ -19,7 +19,7 @@
     "@oclif/core": "^3",
     "@oclif/plugin-help": "^5",
     "@oclif/plugin-plugins": "^4",
-    "@prisma/client": "5.7.0",
+    "@prisma/client": "5.7.1",
     "@types/inquirer": "^9.0.7",
     "@types/mssql": "^9.1.4",
     "@types/pg": "^8.10.9",
