@@ -709,10 +709,10 @@
     wordwrap "^1.0.0"
     wrap-ansi "^7.0.0"
 
-"@oclif/core@^3", "@oclif/core@^3.0.4", "@oclif/core@^3.10.2", "@oclif/core@^3.12.0", "@oclif/core@^3.13.1":
-  version "3.14.1"
-  resolved "https://registry.npmjs.org/@oclif/core/-/core-3.14.1.tgz"
-  integrity sha512-HLFL2s45DFdqYI2CFjVS/CIQ4cQ4yZqH0XqO9nnwcRWYboz2rEW/vLmidjIYGDjh6xA/k5psiAL3O1KEjqSHuQ==
+"@oclif/core@^3", "@oclif/core@^3.0.4", "@oclif/core@^3.10.2", "@oclif/core@^3.13.1", "@oclif/core@^3.15.1":
+  version "3.16.0"
+  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.16.0.tgz#682657cb5e4a3262a47e26e0c8a7bf0343acaf76"
+  integrity sha512-/PIz+udzb59XE8O/bQvqlCtXy6RByEHH0KsrAJNa/ZrqtdsLmeDNJcHdgygFHx+nz+PYMoUzsyzJMau++EDNoQ==
   dependencies:
     ansi-escapes "^4.3.2"
     ansi-styles "^4.3.0"
@@ -731,7 +731,7 @@
     js-yaml "^3.14.1"
     natural-orderby "^2.0.3"
     object-treeify "^1.1.33"
-    password-prompt "^1.1.2"
+    password-prompt "^1.1.3"
     slice-ansi "^4.0.0"
     string-width "^4.2.3"
     strip-ansi "^6.0.1"
@@ -790,13 +790,13 @@
   integrity sha512-XB8kwQj8zynXjIIWRm+6gO/r8Qft2xKtwBMSmq1JRqtA6TpwpqECqiu8LosBCyg2JBXuUy2lU23/L98KIR7FrQ==
 
 "@oclif/test@^3":
-  version "3.1.3"
-  resolved "https://registry.npmjs.org/@oclif/test/-/test-3.1.3.tgz"
-  integrity sha512-p4Z+SpGSW6pw/QQrQwVuG8eOuZtUl/hxh2rgaOkDfxWipb6FVNa08kzuE70rYaIDIq/9SFglcOb9YQmOXv2MEA==
+  version "3.1.8"
+  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-3.1.8.tgz#12402a1be848af24e7696b259a7bc68a3153235f"
+  integrity sha512-QtBK+gq7mOSns1DhB4URNNvanYiLfwyJ4dY4iL1qyv0ishmRLMRsXnRwlml8e9RHqKg17Sj+I3dnMqWyfJV3rw==
   dependencies:
-    "@oclif/core" "^3.12.0"
+    "@oclif/core" "^3.15.1"
     chai "^4.3.10"
-    fancy-test "^3.0.1"
+    fancy-test "^3.0.8"
 
 "@octokit/auth-token@^2.4.4":
   version "2.5.0"
@@ -2909,10 +2909,10 @@ external-editor@^3.0.3, external-editor@^3.1.0:
     iconv-lite "^0.4.24"
     tmp "^0.0.33"
 
-fancy-test@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.npmjs.org/fancy-test/-/fancy-test-3.0.1.tgz"
-  integrity sha512-Ke1IFOGEBxP2dNg0X7ZYPUSwKSRr5GNn3xM/2DpHkP86riF3MFDpesXJuD1TGm7gcfwBtYpuSzuw3m704bThVg==
+fancy-test@^3.0.8:
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/fancy-test/-/fancy-test-3.0.8.tgz#ca3919ebb07c1c0e5fb8e8953e02e2ed48600ef8"
+  integrity sha512-vHkT59Kf0Byiqzwc2My1fD9VDYsAPkT+jVqdMqqtwtdLwz19x+hHI2oAxNwfyfEDSK+VrLB4+B96sZbOLVEHdA==
   dependencies:
     "@types/chai" "*"
     "@types/lodash" "*"
@@ -2920,8 +2920,8 @@ fancy-test@^3.0.1:
     "@types/sinon" "*"
     lodash "^4.17.13"
     mock-stdin "^1.0.0"
-    nock "^13.3.3"
-    sinon "^16.0.0"
+    nock "^13.4.0"
+    sinon "^16.1.3"
     stdout-stderr "^0.1.9"
 
 fast-deep-equal@^3.1.1, fast-deep-equal@^3.1.3:
@@ -4800,9 +4800,9 @@ no-case@^3.0.4:
     lower-case "^2.0.2"
     tslib "^2.0.3"
 
-nock@^13.3.3:
+nock@^13.4.0:
   version "13.4.0"
-  resolved "https://registry.npmjs.org/nock/-/nock-13.4.0.tgz"
+  resolved "https://registry.yarnpkg.com/nock/-/nock-13.4.0.tgz#60aa3f7a4afa9c12052e74d8fb7550f682ef0115"
   integrity sha512-W8NVHjO/LCTNA64yxAPHV/K47LpGYcVzgKd3Q0n6owhwvD0Dgoterc25R4rnZbckJEb6Loxz1f5QMuJpJnbSyQ==
   dependencies:
     debug "^4.1.0"
@@ -5594,7 +5594,7 @@ pascal-case@^3.1.2:
     no-case "^3.0.4"
     tslib "^2.0.3"
 
-password-prompt@^1.1.2:
+password-prompt@^1.1.2, password-prompt@^1.1.3:
   version "1.1.3"
   resolved "https://registry.npmjs.org/password-prompt/-/password-prompt-1.1.3.tgz"
   integrity sha512-HkrjG2aJlvF0t2BMH0e2LB/EHf3Lcq3fNMzy4GYHcQblAvOl+QQji1Lx7WRBMqpVK8p+KR7bCg7oqAMXtdgqyw==
@@ -6365,9 +6365,9 @@ simple-swizzle@^0.2.2:
   dependencies:
     is-arrayish "^0.3.1"
 
-sinon@^16.0.0:
+sinon@^16.1.3:
   version "16.1.3"
-  resolved "https://registry.npmjs.org/sinon/-/sinon-16.1.3.tgz"
+  resolved "https://registry.yarnpkg.com/sinon/-/sinon-16.1.3.tgz#b760ddafe785356e2847502657b4a0da5501fba8"
   integrity sha512-mjnWWeyxcAf9nC0bXcPmiDut+oE8HYridTNzBbF98AYVLmWwGRp2ISEpyhYflG1ifILT+eNn3BmKUJPxjXUPlA==
   dependencies:
     "@sinonjs/commons" "^3.0.0"
