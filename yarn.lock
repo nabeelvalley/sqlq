@@ -759,9 +759,9 @@
     fast-levenshtein "^3.0.0"
 
 "@oclif/plugin-plugins@^4":
-  version "4.1.10"
-  resolved "https://registry.npmjs.org/@oclif/plugin-plugins/-/plugin-plugins-4.1.10.tgz"
-  integrity sha512-+tb9ME7J0Uje/XWxh60OBqkuysIValn+O70AAodWbHDTkQmmW+g50uEuyQUQW5iPKMeiZBVg9p+AhpT8d9R9jA==
+  version "4.1.14"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-4.1.14.tgz#7065d3aa379cb404b190264ec57d7436ed4dd7e9"
+  integrity sha512-wx8eY/ze9ypXsmITI2hM564bmTlChidW3gsAUeyyVHPAldmzmic/Vh6nXPHF10nOvvl0RXwOpjyA/IgrTyyVvQ==
   dependencies:
     "@oclif/core" "^3.10.2"
     chalk "^5.3.0"
