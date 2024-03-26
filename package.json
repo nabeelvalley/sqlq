@@ -43,7 +43,7 @@
     "eslint-config-oclif": "^5",
     "eslint-config-oclif-typescript": "^3",
     "eslint-config-prettier": "^9.0.0",
-    "oclif": "^4.0.4",
+    "oclif": "^4.6.3",
     "shx": "^0.3.4",
     "ts-node": "^10.9.1",
     "typescript": "^5"
